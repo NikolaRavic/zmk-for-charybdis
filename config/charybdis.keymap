@@ -57,7 +57,7 @@
             bindings = <
 &kp ESC         &kp N1  &kp N2   &kp N3            &kp N4        &kp N5          &kp N6      &kp N7     &kp N8     &kp N9   &kp N0    &kp BACKSPACE
 &kp TAB         &kp Q   &kp W    &kp E             &kp R         &kp T           &kp Y       &kp U      &kp I      &kp O    &kp P     &kp BSLH
-&kp CAPSLOCK    &gqt LCTRL A   &mt LALT S  &mt LGUI D             &mt LSHIFT F       &kp G           &kp H      &mt RSHFT J    &mt RGUI K     &mt RALT L   &mt RCTRL SEMI  &kp SQT
+&kp CAPSLOCK    &gqt LCTRL A   &gqt LALT S  &gqt LGUI D             &gqt LSHIFT F       &kp G           &kp H      &gqt RSHFT J    &gqt RGUI K     &gqt RALT L   &gqt RCTRL SEMI  &kp SQT
 &kp LEFT_SHIFT  &kp Z   &kp X    &kp C             &kp V         &lt 2 B         &kp N       &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
                                  &kp LGUI  &kp SPACE     &mo 1           &kp DELETE  &kp SPACE
                                                    &kp LEFT_WIN  &kp LEFT_ALT    &kp ENTER
