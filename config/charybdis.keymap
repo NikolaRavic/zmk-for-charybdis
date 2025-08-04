@@ -60,7 +60,7 @@
 &kp CAPSLOCK    &gqt LCTRL A   &gqt LALT S  &gqt LGUI D             &gqt LSHIFT F       &kp G           &kp H      &gqt RSHFT J    &gqt RGUI K     &gqt RALT L   &gqt RCTRL SEMI  &kp SQT
 &kp LEFT_SHIFT  &kp Z   &kp X    &kp C             &kp V         &kp B         &kp N       &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
                                  &kp LGUI  &mo 1     &kp LGUI           &mo 2  &kp BACKSPACE
-                                       &kp SPACE  &kp LEFT_ALT           &kp ENTER
+                                       &kp SPACE  &mo 3           &kp ENTER
             >;
         };
 
@@ -80,7 +80,7 @@
 &trans  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans      &trans  &trans  &trans  &trans  &trans
 &trans  &trans          &trans        &trans        &trans        &trans          &trans      &trans  &trans  &trans  &trans  &trans
 &trans  &bt BT_CLR_ALL  &trans        &trans        &trans        &trans          &trans       &kp LEFT  &kp DOWN  &kp UP   &kp RIGHT  &trans
-&trans  &trans          &trans        &bt BT_CLR    &trans        &trans          &bt BT_NXT  &trans  &trans  &trans  &trans  &trans
+&trans  &trans          &trans        &bt BT_CLR    &trans        &bt BT_NXT      &kp KP_PLUS &kp MINUS &kp EQUAL &kp LBKT &kp RBKT  &kp BSLH
                                       &trans        &trans        &trans          &trans      &trans
                                                     &trans        &trans          &trans
             >;
