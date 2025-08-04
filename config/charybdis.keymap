@@ -59,8 +59,8 @@
 &kp TAB         &kp Q   &kp W    &kp E             &kp R         &kp T           &kp Y       &kp U      &kp I      &kp O    &kp P     &kp MINUS
 &kp CAPSLOCK    &gqt LCTRL A   &gqt LALT S  &gqt LGUI D             &gqt LSHIFT F       &kp G           &kp H      &gqt RSHFT J    &gqt RGUI K     &gqt RALT L   &gqt RCTRL SEMI  &kp SQT
 &kp LEFT_SHIFT  &kp Z   &kp X    &kp C             &kp V         &kp B         &kp N       &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
-                                 &kp SPACE  &mo 1     &kp LGUI           &mo 2  &kp ENTER
-                                                   &kp LEFT_WIN  &kp LEFT_ALT    &kp BACKSPACE
+                                 &kp LGUI  &mo 1     &kp LGUI           &mo 2  &kp BACKSPACE
+                                       &kp SPACE  &kp LEFT_ALT           &kp ENTER
             >;
         };
 
