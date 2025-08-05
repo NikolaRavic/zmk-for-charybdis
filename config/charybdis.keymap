@@ -27,15 +27,15 @@
 &kp TAB         &kp Q   &kp W    &kp E             &kp R         &kp T           &kp Y       &kp U      &kp I      &kp O    &kp P     &kp MINUS
 &kp CAPSLOCK    &gqt LCTRL A   &gqt LALT S  &gqt LGUI D             &gqt LSHIFT F       &kp G           &kp H      &gqt RSHFT J    &gqt RGUI K     &gqt RALT L   &gqt RCTRL SEMI  &kp SQT
 &kp LEFT_SHIFT  &kp Z   &kp X    &kp C             &kp V         &kp B         &kp N       &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
-                                 &kp LGUI  &lt 1 SPACE    &kp SPACE           &kp ENTER  &mo 2
-                                       &mo 3  &mo 4                                 &kp BACKSPACE
+                                 &kp LGUI  &lt 1 SPACE    &kp SPACE           &kp ENTER  &lt 2 BACKSPACE
+                                       &mo 3  &mo 4                                 &kp DELETE
             >;
         };
 
         F_layers {
             bindings = <
 &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6        &kp F7     &kp F8     &kp F9    &kp F10       &kp F11    &kp F12
-&trans  &none   &none   &none   &none   &trans        &none      &none      &none     &kp UP_ARROW  &kp MINUS  &kp EQUAL
+&trans  &none   &none   &none   &none   &trans        &none      &kp C_VOL_DN      &kp C_MUTE     &kp C_VOL_UP  &kp MINUS  &kp EQUAL
 &kp GRAVE  &kp EXCL         &kp AT            &kp HASH          &kp DOLLAR   &kp PRCNT                    &kp CARET &kp AMPS  &kp STAR &kp LPAR  &kp RPAR  &kp TILDE
 &trans  &trans  &trans  &trans  &trans  &none         &none      &kp UNDERSCORE &kp PLUS        &kp LBRC  &kp RBRC  &kp PIPE
                         &trans  &trans  &trans    &mkp LCLK  &mkp RCLK
