@@ -23,12 +23,12 @@
 
         QWERTY {
             bindings = <
-&kp ESC         &kp N1  &kp N2   &kp N3            &kp N4        &kp N5          &kp N6      &kp N7     &kp N8     &kp N9   &kp N0    &kp GRAVE
+&kp ESC         &kp N1  &kp N2   &kp N3            &kp N4        &kp N5          &kp N6      &kp N7     &kp N8     &kp N9   &kp N0    &kp BACKSPACE
 &kp TAB         &kp Q   &kp W    &kp E             &kp R         &kp T           &kp Y       &kp U      &kp I      &kp O    &kp P     &kp MINUS
 &kp CAPSLOCK    &gqt LCTRL A   &gqt LALT S  &gqt LGUI D             &gqt LSHIFT F       &kp G           &kp H      &gqt RSHFT J    &gqt RGUI K     &gqt RALT L   &gqt RCTRL SEMI  &kp SQT
 &kp LEFT_SHIFT  &kp Z   &kp X    &kp C             &kp V         &kp B         &kp N       &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
-                                 &kp LGUI  &mo 1     &kp SPACE           &kp ENTER  &kp BACKSPACE
-                                       &mo 3  &mo 4           &mo 2
+                                 &kp LGUI  &lt 1 SPACE    &kp SPACE           &kp ENTER  &mo 2
+                                       &mo 3  &mo 4                                 &kp BACKSPACE
             >;
         };
 
@@ -36,7 +36,7 @@
             bindings = <
 &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6        &kp F7     &kp F8     &kp F9    &kp F10       &kp F11    &kp F12
 &trans  &none   &none   &none   &none   &trans        &none      &none      &none     &kp UP_ARROW  &kp MINUS  &kp EQUAL
-&kp GRAVE  &kp EXCL         &kp AT            &kp HASH          &kp DOLLAR   &kp PRCNT                    &kp CARET &kp AMPS  &kp STAR         &kp LPAR  &kp RPAR  &kp TILDE
+&kp GRAVE  &kp EXCL         &kp AT            &kp HASH          &kp DOLLAR   &kp PRCNT                    &kp CARET &kp AMPS  &kp STAR &kp LPAR  &kp RPAR  &kp TILDE
 &trans  &trans  &trans  &trans  &trans  &none         &none      &kp UNDERSCORE &kp PLUS        &kp LBRC  &kp RBRC  &kp PIPE
                         &trans  &trans  &trans    &mkp LCLK  &mkp RCLK
                                 &trans  &trans        &trans
