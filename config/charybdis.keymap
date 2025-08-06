@@ -5,6 +5,14 @@
 #include <dt-bindings/zmk/rgb.h>
 
 / {
+     combos {
+            compatible = "zmk,combos";
+            combo_tab {
+                timeout-ms = <28>;
+                key-positions = <16 17>;
+                bindings = <&kp TAB>;
+            };
+    };
     behaviors {
         gqt: global-quick-tap {
             compatible = "zmk,behavior-hold-tap";
